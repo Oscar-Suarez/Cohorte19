@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Mi primera web</title>
+	<style>
+		table, th, td {border: 1px solid black;
+
+		}
+	</style>
+</head>
+<body>
+	<table style="width:500px;">
+		<thead> <!--thead: sirve para agrupar elementos que se encuentran en la cabezera-->
+				<tr>
+			<th>th:sirve para cabezera</th>
+			<th>Cabezera ejemplo
+		</tr>
+		<tr>
+
+		</thead>
+		<tbody> <!--tbody: sirve para agrupar el cuerpo de las tablas</!-->
+						<td>
+				td:se utiliza para elementos estándar adentro de la tabla.
+			</td>
+			<td>Ejemplo de contenido</td>
+		</tr>
+		<tr>
+			<td>
+				Ejemplo 3
+			</td>
+			<td>Ejemplo 4</td>
+		</tr>
+		<tr>
+			<td>
+				Ejemplo 5
+			</td>
+			<td>Ejemplo 6</td>
+		</tr>
+		</tbody>
+		<tfoot> <!-- tfoot para agregar el pie de la tabla</!-->
+			<td>pie de tabla</td>
+			<td> ejemplos sumados</td>
+		</tfoot>
+
+
+	</table>
+	<!-- ul es lista no ordenada-->
+	<ul> Elementos
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+	</ul>
+		<!-- ol es lista  ordenada-->
+	<ol>
+		<li value="12">Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+		<li>
+			<ol style="list-style-type:lower-alpha">
+				<li style="list-style-type:lower-alpha">SubE1</li>
+				<li>SubE2</li>
+				<li>SubE3</li>
+			</ol>
+		</li>
+	</ol>
+
+
+
+
+	<form action="formulario" method="">
+		<label for="etiqueta">Sirve para indicarle la etiqueta</label>
+		<input value="Valor por defecto" type="" id="etiqueta" name="etiqueta" placeholder="Para indicar qué debe tener en ese espacio">
+		<br>
+		<label for="comentario">Comentario</label><br>
+		<textarea rows="10" cols="50" id="comentario" placeholder="Ingrese comentario" name="comentario" >Aquí va el valor por defecto</textarea>
+		<br>
+		<input type="submit"><br>
+		<button type="button">(para hacer lo más personalizable)Enviar</button><br>
+		<button type="reset">Tipo reset</button><br>
+		<button type="submit">Tipo submit</button><br>
+	</form>
+	<h1>Mi primer heading</h1>
+	<h2>Mi segundo heading</h2>
+	<h3>Mi tercer heading</h3>
+	<h4>Mi cuarto heading</h4>
+	<h5>Mi quinto heading</h5>
+	<h6>Chanchito  feliz</h6>
+	<p>p: Sirve para agregar el texto</p>
+	<p>y para agregar en otros parrafos volver a usar p</p>
+	<hr>hr sirve para separar los subtítulos o texto.
+	<h2>Otro subtítulo</h2>
+	<p>Más texto. <br><span style="color: blueviolet;">Más largo</span> para usar la etiqueta de span!</p>
+	<br> <!--separación entre párrafos-->
+	<hr> <!--seprara los párrafos pero con línea horizontal-->
+	<!-- este texto es un comentario, no aparecera
+		a aparecer al explorador-->
+	<a target="_blank" href="https://www.google.com">Ir a google</a>
+    <a href="/HTML-CSS/Introducción HTML/Assets/ffe0e6dbee5463bc7257a20ef47ac8ad.jpg" download="">descargar</a>
+	<img src="Assets/ffe0e6dbee5463bc7257a20ef47ac8ad.jpg" width="400" height="" alt="">
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!--
+    <p align="center"> Centra el texto.
+
+<p align="right"> Alinea el texto a la izquierda.
+
+<p align="left"> Alinea el texto a la derecha..
+
+<p align="justify"> Justifica el texto.
+
+Etiquetas para formatear texto
+
+- em que sirve para crear texto en cursiva
+- u para subrayar texto
+- b para poner textos en negritas
+- strong para poner textos en negritas
+- del para tachar texto
+- blockquote para crear un bloque de texto como en cita
+
+    ANOTACIONES DE GENERATION
+    Etiquetas de enlace
+
+    Los enlaces nos permiten la navegacion por medio de hipervinculos (links) que realizan una conexion y referencian otros archivos o paginas web dentro de la misma aplicacion o externa a la misma.
+
+    En HTML 5 se pueden definir los enlaces con la etiqueta a que significa "anchor" o ancla. Esta etiqueta tiene varios atributos:
+
+    - href: nos permite definir la ubicacion de la pagina a la que nos vamos a enlazar. Este atributo puede ser una URL (externa) o un documento dentro de nuestra carpeta del proyecto (assets). La direccion va entre comillas.
+
+    - target: Definde la ventana de destino, que puede ser una ventana nueva o la misma ventana
+        - _blank: Abre el link en una nueva ventana
+        - _self: Abrir el link en la misma ventana. Este valor es el que tenemos por default.
+
+-->
+<!--Etiquetas para listas ordenadas, desordenadas y listas de definiciones (diccionarios)
+
+
+Listas ordenadas: Listas que tienen un ordenn (numeros o letras)
+    1.- Tacos al pastor
+    2 - Tacos de suadero
+    3.- Tacos de chicharron
+
+
+    a.- Tacos al pastor
+    b - Tacos de suadero
+    c.- Tacos de chicharron
+
+
+Listas desordenadas: Listas que NO tienen un orden (bullets o figuritas)
+
+    - Tacos al pastor
+    - Tacos de suadero
+    - Tacos de chicharron
+
+
+    <ol> Ordered list o lista ordenada
+    <li> List item o elemento de la lista
+
+
+        <h3>Lista de definiciones</h3>
+<dl>
+    <dt>Gato</dt>
+    <dd>Mamífero carnívoro de la familia de los Félidos, digitígrado, doméstico, de unos cinco decímetros de largo desde la cabeza hasta el arranque de la cola, que por sí sola mide dos decímetros aproximadamente. Pareciera que planean dominar al mundo</dd>
+
+    <dt>Perro</dt>
+    <dd>Mamífero doméstico de la familia de los cánidos, de tamaño, forma y pelaje muy diversos, según las razas, que tiene olfato muy fino y es inteligente y muy leal a su dueño. Es el mejor amigo del hombre</dd>
+
+</dl>
+
+-->
+
