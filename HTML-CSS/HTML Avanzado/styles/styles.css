@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid #e0e0e0;
+}
+
+thead{
+    color: rgb(151, 16, 16);
+}
+
+tbody{
+    color: darkcyan;
+}
+
+#username::placeholder{
+    color: grey;
+    font-style: italic;
+}

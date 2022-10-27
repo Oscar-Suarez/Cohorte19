@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    background-color: cornsilk;
+    gap: 5px;
+    height: 200px;
+
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    /*align-items: center;*/
+    grid-template-rows: auto auto auto;
+
+}
+
+.grid-container div {
+    background-color: rgb(200,0,0);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: 1/3;
+}

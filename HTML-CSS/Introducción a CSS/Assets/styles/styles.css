@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(105, 105, 105);
+}
+.div1{
+    text-align: center;
+    margin: 50px;
+}
+
+#titulo{
+    margin: 50px;
+    color: #FFFFFF;
+
+text-shadow: 0 0 5px #ff1818, 0 0 10px #ff1818, 0 0 15px #ff1818, 0 0 20px #ff1818, 0 0 30px #ff1818, 0 0 40px #ad0606, 0 0 55px #ac0b0b, 0 0 75px #bf0b0b;
+}
+
+#img1{
+    border-style: dashed;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+

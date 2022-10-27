@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*
+    flex-direction: column;
+    flex-wrap: wrap; */
+    /* Para tener ambas en una sola */
+    flex-flow: row wrap;
+    background-color: cornsilk;
+    border: 2px solid black;
+    height: 400px;
+}
+
+.flex-container div {
+    background-color: gainsboro;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px;
+    font-family: ;
+}
+
+.item1 {
+    order: 0;
+}
