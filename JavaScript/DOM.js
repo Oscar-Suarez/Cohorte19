@@ -72,7 +72,20 @@ elementPadre.appendChild(img);
 
 img.src = "https://scontent.fgdl5-4.fna.fbcdn.net/v/t1.6435-9/83497795_2696033720431797_5638712050084478976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=973b4a&_nc_ohc=7UvHPe_NGDAAX-siOSh&_nc_ht=scontent.fgdl5-4.fna&oh=00_AfAw5o13OlfuU7RO4SnQyeEnUqXQVNRDcyaWSCruSGiOYQ&oe=6393581A";
 img.alt = "foto dragalge";
-img.width = "250";
+img.width = 250;
+
+/*Otras formas de leer y agregar nodos (esto se usa mas para elementos que ya existen)
+
+    - outer.HTML (leer)
+    - node.innerHTML (escribir)
+
+*/
+const referenciaOuter = document.getElementById("titulo1");
+
+const elementoOuter = referenciaOuter.outerHTML;
+
+console.log("Esta es mi referencia", element);
+
 
 
 
