@@ -3,7 +3,7 @@ var btnAum = document.querySelector("#aumentar");
 var btnDim = document.querySelector("#disminuir");
 var btnReset = document.querySelector("#resetear");
 var btnImgRandom = document.querySelector("#imgRandom");
-var contador = document.querySelector("#contador");
+var contador = document.querySelector("#contador"); //Es el 0 en HTML
 var contenedorImg = document.querySelector("#contenedorImg");
 
 var valorContador = 0; //Contador empieza en 0.
