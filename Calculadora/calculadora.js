@@ -26,19 +26,23 @@ btnResta.addEventListener("click", function(){
 });
 
 btnDivi.addEventListener("click", function(){
-
-
-    num1 == 0 || num2 == 0  ? resultado.innerHTML = "Estás dividiendo entre 0" : resultado.innerHTML = num1 / num2;
+num1 == 0 || num2 == 0  ? resultado.innerHTML = "Estás dividiendo entre 0" : resultado.innerHTML = num1 / num2;
 });
 
 btnMulti.addEventListener("click", function(){
     resultado.innerHTML = num1 * num2;
+
 });
 
 btnLimpiar.addEventListener("click", function(){
-
-    resultado.innerHTML = 0;
+        resultado.innerHTML = 0;
 });
 
 
+
+// botonReset.addEventListener('click', function(){
+//     resultado.innerHTML = 0;
+//     numero1.value = 0;
+//     numero2.value = 0;
+// })
 

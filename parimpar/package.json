@@ -1,0 +1,19 @@
+{
+  "name": "@oscar.suarez/parimpar",
+  "version": "1.0.1",
+  "description": "\"Modulo para saber si un numero es par o impar\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "par",
+    "impar",
+    "modulo",
+    "prueba",
+    "generation",
+    "ch19"
+  ],
+  "author": "Oscar.suarez",
+  "license": "ISC"
+}
